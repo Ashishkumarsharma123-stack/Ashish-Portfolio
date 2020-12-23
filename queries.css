@@ -1,0 +1,273 @@
+/*- media query.css always down from style.css in head*/
+/*- always starts from 500px;--*/
+/*------ 1200-------*/
+
+@media only screen and (max-width:1200px ){
+  header{
+    background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(resources/DSC_6415.JPG);
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    background-position: 200px  -5px;
+    background-color: black;
+    background-attachment: fixed;
+}
+    .navbar{
+     margin-left: 110px;
+    padding-top: 40px;
+    width:100%;
+}
+h1{
+    color:orangered;
+    font-size:20px;
+    letter-spacing: 10px;
+    margin-bottom:20px;
+    background-color:black;
+    width:500px;
+    text-align: center;
+    padding:5px;
+}
+.main-paragraph{
+    color:#FF6433;
+    width:300px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    background-color: black;
+    padding:5px;
+}
+    
+    
+/*--- 950px -----------*/
+ @media only screen and (max-width:950px){
+        .main-paragraph{
+    color:#FF6433;
+    width:400px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    background-color: black;
+    padding:10px;
+    font-size: 15px;
+}
+h1{
+    font-size:20px;
+    letter-spacing: 5px;
+    margin-bottom:20px;
+    width:450px;
+    padding:10px;
+    }
+.navbar{
+     margin-left: 140px;
+    padding-top: 40px;
+    width:100%;
+}
+ .navbar a{
+    font-size: 15px;     
+ }
+header{
+    background-position:250px 0px ;
+}
+.hero-text{
+    position: relative;
+    top:30%;
+    left: 5%;
+}
+ 
+    
+    
+    
+     /*------- 950px-----------*/
+    @media only screen and (max-width:950px){
+        .main-paragraph{
+    color:#FF6433;
+    width:250px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    background-color: black;
+    padding:10px;
+    font-size: 15px;
+}
+h1{
+    font-size:20px;
+    letter-spacing: 5px;
+    margin-bottom:20px;
+    width:450px;
+    padding:10px;
+    }
+.navbar{
+     margin-left: 60px;
+    padding-top: 40px;
+    width:100%;
+}
+ .navbar a{
+    font-size: 15px;     
+ }
+header{
+    background-position:190px 2px;
+}
+.hero-text{
+    position: relative;
+    top:30%;
+    left: 5%;
+}
+    
+    
+     /*------- 800px-----------*/
+    @media only screen and (max-width:800px){
+        .main-paragraph{
+    color:#FF6433;
+    width:300px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    background-color: black;
+    padding:10px;
+    font-size: 15px;
+}
+h1{
+    font-size:20px;
+    letter-spacing: 5px;
+    margin-bottom:20px;
+    width:300px;
+    padding:10px;
+    }
+.navbar{
+    display: flex;
+     margin-left: 40px;
+    padding-top: 40px;
+    width:100%;
+}
+  .navbar li {
+            padding: 10px;
+        }
+header{
+    background-position:120px -8px ;
+}
+.hero-text{
+    position: absolute;
+    top:40%;
+    left: 5%;
+}
+ 
+        
+        
+        
+        
+  
+    /*------- 650px-----------*/
+    @media only screen and (max-width:650px){
+        
+        
+        .main-paragraph{
+    color:#FF6433;
+    width:250px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    background-color: black;
+    padding:3px;
+    font-size: 10px;
+}
+h1{
+    font-size:15px;
+    letter-spacing: 5px;
+    margin-bottom:20px;
+    width:250px;
+   
+    }
+.navbar{
+    display: flex;
+     margin-left: 30px;
+    padding-top: 40px;
+    width:100%;
+}
+  .navbar li {
+            padding: 10px;
+        }
+header{
+    background-position:50px 0 ;
+}
+.hero-text{
+    position: absolute;
+    top:40%;
+    left: 5%;
+}
+        
+        
+/*------- 501px-----------*/
+    @media only screen and (max-width:501px){
+  /*-----------------------------------------------*/   
+        .navbar {display: none; }
+        .mobile-nav-icon{display: inline-block;color:orangered;font-size: 30px;}
+        .navbar{
+            background-color: black;
+            padding: 0;
+            width:140px;
+            position: relative;
+            right:-30px;
+            top:10px;
+            
+        }
+        .navbar li {
+            overflow: hidden;
+            padding: 3px;
+            margin-bottom: 5px;
+        }
+        .navbar li a{
+            text-align:center;
+        }
+        
+    
+         /*-----------------------------------------------*/ 
+        
+        .main-paragraph{
+    color:#FF6433;
+    width:200px;
+    letter-spacing: 2px;
+    background-color: black;
+    padding:3px;
+    font-size: 10px;
+}
+h1{
+    color:orangered;
+    font-size:10px;
+    letter-spacing: 5px;
+    margin-bottom:20px;
+    width:200px;
+    padding:10px;
+    }
+
+header{
+    background:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ),url(resources/DSC_6415.JPG);
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    background-position:left;
+    background-position: -180px 0;
+    position: relative;
+}
+.hero-text{
+    position: absolute;
+    top:43%;
+    left: 5%;
+}
+        .row{
+           display: flex;
+           flex-direction: column;
+        }
+        .cont{
+            display: flex;
+            flex-direction: column;
+            text-align:center;
+            padding-left: 40px;
+        }
+        .container{
+            display: flex;
+            align-items:center;
+            height: 650px;
+        }
+        h4{
+            font-size: 15px;
+        }
+        .project-details p{
+            font-size: 10px;
+        }
+        h3{padding: 30px;}
+        }

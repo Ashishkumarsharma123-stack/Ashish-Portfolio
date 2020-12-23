@@ -1,0 +1,222 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: lato,roboto;
+    overflow-x: hidden;
+    
+}
+header{
+    background:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url(resources/DSC_6415.JPG);
+    filter:brightness(1.8);
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    background-position: 300px  -150px;
+    background-attachment: fixed;
+}
+.hero-text{
+    position: relative;
+    top:50%;
+    left: 10%;
+}
+.main-paragraph{
+    color:#FF6433;
+    width:500px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    background-color: black;
+    padding:10px;
+}
+h1{
+    color:orangered;
+    font-size:40px;
+    letter-spacing: 10px;
+    margin-bottom:20px;
+    background-color:black;
+    width:700px;
+    text-align: center;
+}
+
+
+/* -----mobile-navigation--------- */
+ /*-----------------------------------------------*/ 
+.navbar{
+    display: flex;
+    margin-left: 140px;
+    padding-top: 40px;
+}
+.navbar li {
+    list-style: none;
+    margin-right: 20px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding:8px;
+    font-size: 16px;
+    background-color: black;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.navbar li a:hover{
+    color:orangered;
+}
+ /*-----------------------------------------------*/ 
+
+
+/*------------- section - projects --------------*/
+.project{
+    padding-bottom: 30px;
+}
+.container{
+    background:brown;
+    width:400px;
+    height:550px;
+     padding:10px;
+    box-shadow: 2px 4px  25px red;
+}
+    .project-details{
+    color:white;
+}
+.project-details p {
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.main-contain{
+    display: flex;
+    justify-content: center;
+}
+.url{
+    color:black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.url::before{
+    content: "URL :-"
+}
+.url:hover{
+    color:blue;
+    font-size:20px;
+}
+h4{
+    color:black;
+    margin-bottom: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform:uppercase;
+}
+h4:hover{ color:white;}
+
+
+
+
+
+
+/*------------- section - slills --------------*/
+section{
+    padding:10px 80px ;
+    background-color: #212529;
+}
+.image{
+    width:100%;
+    height: 300px;
+    opacity:0.6;
+    transition: opacity 0.4s , transform 0.4s;
+}
+.image:hover{
+    opacity:1;
+    transform: scale(1.2);
+}
+.row{
+    display:flex;
+}
+.column{
+    flex:50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow:hidden;
+}
+h3{
+    color:red;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 2px
+}
+
+
+/*--------------  contacts ------------*/
+.contacts{
+    padding:100px 60px;
+   
+}
+.cont a{
+    text-decoration: none;  
+    overflow: hidden;
+}
+.cont a i {
+    font-size: 150px;
+    margin-right:80px;
+}
+.cont{
+    display:flex;
+    justify-content: center;
+}
+h2{
+    color:red;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+.ion-social-instagram{color:red;}
+.ion-social-facebook{color:blue;}
+.ion-social-linkedin {color:blue;}
+.ion-social-github{color:grey;}
+
+.ion-social-instagram:hover{font-size:180px;}
+.ion-social-facebook:hover{font-size:180px;}
+.ion-social-linkedin:hover{font-size: 180px;} 
+.ion-social-github:hover{font-size:180px;}
+    
+.ion-social-instagram,
+.ion-social-facebook,
+.ion-social-linkedin,
+.ion-social-github{transition: font-size 0.4s;}
+
+
+
+
+.arrow {
+    text-decoration: none;
+}
+.ion-arrow-up-a{
+    color:red;
+    font-size: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+/*-- mobile navigation -- display:none; krdia abhi nav ko- media qury me display: block; when screen max-501px;*/
+.mobile-nav-icon{
+    text-decoration: none;
+    color:red;
+    font-size: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    position: absolute;
+    top:30px;
+    display: none;
+}

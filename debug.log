@@ -1,0 +1,2 @@
+[1208/125758.324:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\AKSHAY SHARMA\AppData\Roaming\Brackets\live-dev-profile\Crashpad\attachments\236cebc5-de6d-47e5-903b-6c4a48f63be9: The system cannot find the path specified. (0x3)
+[1208/130613.680:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
